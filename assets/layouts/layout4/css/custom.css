@@ -1,0 +1,239 @@
+/* here you can put your own css to customize and override the theme */
+
+.page-container {
+    background-color: #ffffff;
+}
+
+.mt-checkbox-list-custom-serv {
+    padding: 17px 0px 0px 20px;
+}
+
+.page-sidebar .page-sidebar-menu>li.heading, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu>li.heading {
+    height: 50px;
+    padding: 18px 0px 0px 15px;
+}
+
+@media (min-width: 991px) {
+	.page-header.navbar .menu-toggler {
+	   background-image: none;
+	}
+}
+
+.btn-theme-panel {
+    margin-top: 5px;
+}
+
+.serv-plus-texto {
+	font-weight: bold;
+	font-size: 18px;
+}
+ 
+ .custom-nav-menu-serv-plus {
+/*  	background-image: url(../img/sidebar-toggle-light.png); */
+ }
+ 
+ .page-head:after, .page-head:before {
+    margin-bottom: 15px;
+}
+
+.page-wrapper-row {
+    background: #3B3F51;
+    color: white;
+    font-size: 12px;
+    padding-top: 12px;
+}
+
+.page-header.navbar .page-logo .logo-default {
+    margin: 17px 10px 0;
+}
+
+.serv-modelos-btn {
+	background-color: #32c5d2;
+	color: #ffffff;
+}
+
+.srv-modelos li {
+    background: #f5f5f5;
+    border: 1px solid #f5f5f5;
+    cursor: pointer;
+}
+
+.srv-modelos > li > a {
+    background-image: none;
+    color: #000000;
+    font-size: 13px;
+}
+
+.srv-modelos li.active, .srv-modelos li:hover {
+    background: #4b8df8  !important;
+    border: 1px solid #4b8df8  !important;
+    color: #ffffff;
+}
+
+.srv-modelos > li > a.active, .srv-modelos > li > a:hover {
+    background: #4b8df8  !important;
+    border: 1px solid #4b8df8  !important;
+    color: #ffffff;
+}
+
+/* Line Bar Who wins */
+
+.powerbarheads {
+	width: 95%;
+    margin: 0 auto;
+}
+
+.powerbar.heads {
+    height: 25px;
+    
+}
+
+.candidates.heads {
+    padding: 0px !important;
+}
+
+.candidates {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding: 20px 25px 25px;
+}
+
+.card-winprob .candidates.heads .candidate {
+    display: flex;
+    -webkit-box-align: end;
+    align-items: flex-end;
+}
+
+.candidate {
+    margin-bottom: 15px;
+}
+
+.card-winprob .candidates.heads .candidate .candidate-head img.left-head {
+    margin-left: -3px;
+    margin-right: 10px;
+}
+
+.card-winprob .candidates.heads .candidate .candidate-head img {
+    display: block;
+    width: 110px;
+}
+
+.candidates.heads .candidate .label, .share-icon:hover::before, .t-desktop th.sortable .sortdir div.selected {
+    color: rgb(34, 34, 34);
+}
+
+.card-winprob .candidates.heads .candidate.dem .winprob {
+    color: rgb(23, 158, 224);
+}
+
+.serv-candidate-img {
+	border-radius: 50%!important;
+    width: 25%;
+}
+
+.serv-primer-binomio {
+	text-align: left;
+	display: inline-block;
+}
+
+.serv-segundo-binomio {
+    text-align: right;
+}
+
+.candidate-text {
+	display: inline-flex;
+	font-size: 48px;
+	font-weight: 700;
+    line-height: 1;
+    letter-spacing: -.5px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    vertical-align: bottom; 
+}
+
+.candidate-text > p {
+	padding-left: 15px; 
+	padding-right: 15px;  
+	
+}
+
+.serv-cand-text-left {
+	color: #179ee0;
+}
+
+.serv-cand-text-right {
+	color: #ff5d40;
+}
+
+.serv-cand-text-name {
+	font-size: 20px;
+	align-self: flex-end;
+}
+
+.candidate-val {
+	margin-bottom: 5%;
+}
+
+@media (max-width: 1300px) {
+
+	.candidate-text {
+		font-size: 32px;
+	}
+	
+	.serv-cand-text-name {
+		font-size: 13px;
+	}
+	
+}
+
+@media (max-width: 968px) {
+
+	.candidate-text {
+		font-size: 25px;
+	}
+	
+	.serv-cand-text-name {
+		font-size: 10px;
+	}
+	
+}
+
+@media (max-width: 768px) {
+
+	.candidate-text {
+		font-size: 18px;
+	}
+	
+	.serv-cand-text-name {
+		font-size: 10px;
+	}
+	
+}
+
+/* Progress Bar */
+
+.progress-bar-name {
+	margin-right: 1em;
+	padding-top: 20px;
+}
+
+.progress-bar-properties {
+	height: 6px;
+    margin-top: 27px;
+}
+
+.progress>div {
+	cursor: pointer; cursor: hand;
+}
+
+.progress>div:hover {
+	opacity:0.5;
+}
+
+.table td.fit, 
+.table th.fit {
+    white-space: nowrap;
+    width: 1%;
+}
+
+
